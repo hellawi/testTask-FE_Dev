@@ -5,7 +5,6 @@ function AsideMenu() {
       <div className="asidenav">
         <div className="logo">
           <img src="/favicon.png" alt="" className="favicon" />
-          <img src="/favicon02.png" alt="" className="favicon02" />
         </div>
         <div className="list">
           <ul>
