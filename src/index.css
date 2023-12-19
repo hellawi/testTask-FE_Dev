@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat&family=Poppins:wght@300;400&display=swap');
+body{ 
+  background-color: #f9fbff;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --main-font: 'Poppins', sans-serif;
+}
+main{
+  margin-left: 360px;
+  padding: 0px 10px;
+}
+@media screen and (max-width: 768px) {
+  main{
+    margin-left: 0;
+    padding: 0;
+  }
+  .greetings{
+    font-size: 25px;
+    text-align: center;
+  }
+  .db-pagination-text{
+    margin: 0;
+    text-align: center;
+  }
+  .pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

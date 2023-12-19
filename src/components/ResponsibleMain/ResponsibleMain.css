@@ -1,0 +1,29 @@
+.paginationRes {
+  display: none;
+}
+.headingsBox-res{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .db-pagination-text-res {
+    display: block;
+    font-size: 14px;
+    margin-left: 25px;
+    color: #b5b7c0;
+    margin: 0;
+    text-align: center;
+  }
+  .paginationRes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headingsBox-res{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .search{
+    font-size: 15px;
+  }
+}

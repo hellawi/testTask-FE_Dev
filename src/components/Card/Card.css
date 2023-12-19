@@ -1,0 +1,8 @@
+.card, br{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .card, br{
+    display: block;
+  }
+}

@@ -1,0 +1,64 @@
+body{
+  font-family: var(--main-font);
+}
+.preTable-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+}
+.heading{
+  font-size: 22px;
+}
+.activeHeading{
+  font-size: 14px;
+  color: #16c098;
+}
+.search{
+  width: 216px;
+  border: 2px solid #f9fbff;
+  background-color: #f9fbff;
+  color: #9197b3;
+  border-radius: 10px;
+  padding: 5px 5px 5px 40px;
+  height: 20px;
+  background: url(/lupa.svg) no-repeat 3px 1px;
+  background-size: auto 90%;
+}
+.active{
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid #00B087;
+  border-radius: 50px;
+  background-color: #16c098;
+  color: white;
+}
+.inactive{
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid #df0404;
+  border-radius: 50px;
+  background-color: #ffc5c5;
+  color: #df0404;
+}
+.db-pagination-text{
+  font-size: 14px;
+  margin-left: 25px;
+  color: #B5B7C0;
+}
+.db-pagination-text-res{
+  display: none;
+}
+.pagination{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .tableContainer{
+    display: none;
+  }
+}

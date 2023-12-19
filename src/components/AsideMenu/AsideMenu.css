@@ -1,0 +1,106 @@
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.favicon{
+  width: 195px;
+  height: 39px;
+}
+.favicon02{
+  margin-left: 15px;
+  width: 18px;
+  height: 10px;
+}
+.list{
+  padding-top: 45px;
+}
+.asidenav{
+  height: 100%;
+  width: 306px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.asidenav h1{
+  padding: 6px 8px 6px 6px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+.user{
+  padding-top: 365px;
+  padding-left: 15px;
+  display: flex;
+}
+.user-logo{
+  width: 42px;
+  height: 42px;
+}
+.username{
+  color: #000;
+  font-size: 14px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.dolznost{
+  color: #9197b3;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.chevron01{
+  margin-left: 75px;
+}
+.chevron02{
+  margin-left: 102px;
+}
+.chevron03{
+  margin-left: 77px;
+}
+.chevron04{
+  margin-left: 104px;
+}
+.chevron05{
+  margin-left: 96px;
+}
+.chevron06{
+  margin-left: 126px;
+}
+.li-el{
+  color: #9197b3;
+}
+.li{
+  list-style-type: none;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 30px;
+}
+.li:hover{
+  border: 2px solid #5932ea;
+  border-radius: 50px;
+  background-color: #5932ea;
+  transition: .3s;
+  color: #fff;
+}
+.li-el:hover{
+  color: #fff;
+}
+.li-icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+a{
+  display: flex;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .asidenav{
+    display: none;
+  }
+}
